@@ -1,0 +1,37 @@
+PHASE 1 - POWER SUPPLY
+
+ 3. J1  - 6" 22AWG red stranded wire soldered to J1 +12V
+          6" 22AWG black stranded wiresoldered to J1 GND
+ 4. D12 - 1N5817 diode
+ 5. C57 - 47uF electrolytic capacitor
+ 6. U6  - 78L05 voltage regulator
+ 7. C55 - 100nF capacitor (104)
+ 8. C54 - 100nF capacitor (104) 
+ 9. C49 - 47uF electrolytic capacitor
+10. U7  - 78L08 voltage regulator
+11. C56 - 100nF capacitor (104) 
+12. C39 - 100nF capacitor (104) 
+13. C38 - 10uF electrolytic capacitor
+14. C25 - 100nF capacitor (104) 
+15. C32 - 100nF capacitor (104) 
+16. R19 - 4.7K Ohm resistor 
+17. R17 - 470 Ohm resistor
+18. C29 - 100nF capacitor (104) 
+19. D5  - 1N5240B diode
+20. Test Measurements for Phase 1 - Power
+    13.20V from Bench Power Supply
+    Supply Current                  022ma
+    Test Point                      Value
+    D12 (anode)                     13.20V
+    D12 (cathode)                   12.90V
+    U3-8                             8.15V
+    U2-8                             8.15V
+    J7-1                             8.14V
+    U4-6                            12.90V
+    J8-1                            10.13V
+    Q5 (collector)                   8.15V
+    J3-3                             5.03V
+    J3-1                            12.89V
+    U5-8                             5.02V
+    K7QO Test Video at:
+    https://www.youtube.com/watch?v=Fog3hnTr6Ak
