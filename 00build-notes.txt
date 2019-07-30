@@ -1,0 +1,31 @@
+I ordered and received a 5-Watter Kit for the 40 Meter band.
+Unboxed the 5-Watter Kit and numbered the bags 1 to 5.
+
+References:
+100nikon/DSCN3156.JPG
+100nikon/DSCN3157.JPG
+
+PHASE 0 - SOLDER SMD ICS, 8-PIN DIP SOCKET, ATTACH STANDOFFS
+
+For the most part I followed the assembly manual written by Chuck 
+Adams, K7QO. However, I started by using solder paste and a reflow 
+oven to solder all the SMD ICs. Then I hand soldered the 8-pin DIP 
+socket.
+
+
+ 1. Soldered SMD ICs: 1xLM386, 3xSA602A with solder paste and reflow oven. 
+    Soldered 8-pin DIP socket for the ATtiny45.
+
+ 2. Attached M3 8mm plastic standoffs in corners of PCB
+    (Replaced with M3 10mm brass standoffs later in the build)
+
+I am numbering my steps so I will know what I have done, and can easily
+reference each step by number. This is PHASE 0 because Chuck Adams starts
+with PHASE 1, the Power Supply, and I would like to keep my phases the 
+same as his.
+
+References:
+pcb00.png
+sch00.png
+100nikon/DSCN3163.JPG
+100nikon/DSCN3167.JPG
