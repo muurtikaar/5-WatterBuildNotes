@@ -1,0 +1,27 @@
+PHASE 2 - AUDIO AMPLIFIER    
+21. J6  - Headphone Jack
+22. U4  - LM386N-4
+23. C50 - 33uF electrolytic capacitor
+24. R27 - 4.7 Ohm resistor (4R7)
+25. C48 - 100nF (104)
+26. R30 - 4.7K Ohm resistor (4K7)
+27. R31 - 4.7K Ohm resistor (4K7)
+28. C59 - 2.2uF monolithic capacitor (225)
+29. D13 - 1N5711 (blue)
+30. D9  - 1N5711 (blue)
+31. C51 - 2.2uF monolithic capacitor (225)
+32. C47 - 10uF electrolytic capacitor
+33. C44 - 100nF monolithic capacitor (104) 
+34. C46 - 100nF monolithic capacitor (104) 
+35. C45 - 100nF monolithic capacitor (104)
+36. Tests for Phase 2 - Audio Amplifier
+    Connect powered computer speakers to Jack J6
+    Cut 30cm insulated wire with 2mm stripped off one end
+    Apply power to the circuit (13.2V)
+    Touch wire to top pad of R25
+    Speakers should increase noise
+    Touch wire to bottom pad of R26
+    Speakers should increase noise
+    Test PASSED
+    K7QO Test Video at:
+    https://www.youtube.com/watch?v=cQ7-Ozu4kb4
