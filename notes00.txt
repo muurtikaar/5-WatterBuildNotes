@@ -1,0 +1,24 @@
+Build Notes - Introduction.
+
+I ordered and received a 40 Meter 5-Watter Kit Serial No.16.
+Unboxed the 5-Watter Kit and numbered the bags 1 to 5.
+
+References:
+100nikon/DSCN3156.JPG
+100nikon/DSCN3157.JPG
+
+For the most part I followed the assembly manual written by Chuck 
+Adams, K7QO. However, I started by using solder paste and a reflow 
+oven to solder all the SMD ICs. Then I hand soldered the 8-pin DIP 
+socket.
+
+I am numbering my steps so I will know what I have done, and can easily
+reference each step by number. Chuck Adams starts with PHASE 1, the 
+Power Supply, and I would like to keep my phases the same as his, for 
+overall organization.
+
+References:
+pcb00.png
+sch00.png
+http://kitsandparts.com/5watters.php
+http://k7qo.com/5w.pdf
