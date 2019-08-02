@@ -1,0 +1,51 @@
+Keyer and Keying.
+
+37. J4  - Wires for Command button
+38. J5  - Wires for Jack (paddles)
+39. R33 - 470 Ohm resistor
+40. R32 - 470 Ohm resistor
+41. U5  - 8-pin socket
+42. D10 - NPC-127 diode
+43. D11 - NPC-127 diode
+44. R29 - 10K resistor
+45. C52 - 33pF monolithic capacitor (NPO 33J)
+46. R28 - 1M Ohm resistor
+47. C53 - 100nF monolithic capacitor (104)
+48. J10 - Wires for speed pot (TODO)
+49. R36 - 470 Ohm resistor (if control pot NOT used)
+          I tacked a 470 Ohm resistor in R36 for testing
+50. Q12 - 2N7000
+51. R34 - 4K7 Ohm resistor
+52. R35 - 4K7 Ohm resistor
+53. Q11 - 2N3906
+54. C21 - 100nF monolithic capacitor (104)
+55. U8  - 78L08
+56. C22 - 100nF monolithic capacitor (104)
+57. Tests for Keyer and Keying
+    Connect the PC speakers to the phone jack
+    Connect the dual lever paddle to the paddle jack
+    Connect the the power supply to the power cables
+    I heard 5W being sent from the keyer at 15WPM (default value)
+    I sent some characters using the paddle to see that the dit and dah 
+      were correctly connected
+    The dit is on the left paddle and the dah is on the right paddle
+    I left the keyer speed at the default (15WPM)
+    I measured the voltage at pin 8 of U1, the first transmit mixer IC
+    The voltage read 0.04V
+    I pressed the Command Button
+    Using the paddle, I put the transceiver in the tune mode with 
+      the X command
+    A steady tone from the keyer started up in the speaker and remained ON
+    With the tone active I measured the voltage at pin 8 of U1 (U1-8)
+    It read 8.09V
+    This tests that the transmitter will be activated by the keyer when 
+      code is being sent using the paddle or using the beacon mode of the
+      keyer
+    Test PASSED.
+    K7QO Test Video at:
+    https://www.youtube.com/watch?v=AfG_e_BMqEQ
+
+References:
+pcb04.png
+sch04.png
+100nikon/DSCN3251.JPG
